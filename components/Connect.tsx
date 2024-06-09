@@ -13,10 +13,7 @@ const Connect = () => {
       <h2 className="mb-24 text-center text-5xl">
         Let&apos;s <strong>Connect</strong>
       </h2>
-      <div
-        className="mb-20 flex items-center justify-center"
-        href="tel:+919773024818"
-      >
+      <div className="mb-20 flex items-center justify-center">
         <a
           className="bg-purple shadow-button relative flex cursor-pointer rounded-3xl p-6 px-10 pl-[240px] text-white"
           href="tel:+919773024818"
