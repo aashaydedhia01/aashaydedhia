@@ -30,7 +30,7 @@ const About = () => {
     <>
       <section className="bg-gradient-about p-24">
         <div className="max-w-page m-auto">
-          <h2 className="mb-10 text-center text-4xl">
+          <h2 className="relative mb-16 text-center text-5xl">
             <span className="relative">
               A few words <strong className="font-bold">About Me</strong>
               <Image
@@ -41,6 +41,20 @@ const About = () => {
                 className="absolute right-[-35px] top-[-22px]"
               />
             </span>
+            <Image
+              src="/images/star-1.svg"
+              width={20}
+              height={20}
+              alt=""
+              className="absolute bottom-[-10px] left-[20px]"
+            />
+            <Image
+              src="/images/star-2.svg"
+              width={20}
+              height={20}
+              alt=""
+              className="absolute bottom-[-45px] right-[60px]"
+            />
           </h2>
           <div className="text-gray-light mb-16 text-xl font-light">
             <p className="mb-10">
@@ -58,7 +72,7 @@ const About = () => {
               aligned with user needs, ensuring designs meet both technical
               requirements and business objectives through understanding{' '}
               <strong className="font-medium">user preferences,</strong>{' '}
-              <strong className="font-medium">developing personas</strong> and
+              <strong className="font-medium">developing personas</strong> and{' '}
               <strong className="font-medium">journeys,</strong> and fostering
               collaboration.
             </p>

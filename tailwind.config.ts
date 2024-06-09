@@ -17,6 +17,8 @@ const config: Config = {
         thin: '#989DA9',
         light: '#344054',
       },
+      linkedin: '#0966C2',
+      behance: '#1769FF',
     },
     extend: {
       width: {
@@ -24,6 +26,9 @@ const config: Config = {
       },
       maxWidth: {
         page: '1104px',
+      },
+      boxShadow: {
+        button: '0px 2px 4px rgba(0, 0, 0, 0.25)',
       },
       backgroundImage: {
         'gradient-about':

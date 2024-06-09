@@ -2,14 +2,30 @@ import Image from 'next/image'
 
 const Home = () => {
   return (
-    <section className="max-w-page relative m-auto flex h-screen items-center">
+    <section className="max-w-page relative m-auto flex items-center py-28">
       <div>
-        <div className="mb-16">
+        <div className="mb-20">
           <p className="mb-4 text-3xl font-light">Hey peeps! 👋🏼</p>
           <h1 className="">
-            <p className="mb-2 text-6xl font-bold">I&apos;m Aashay Dedhia,</p>
-            <p className="text-6xl">
+            <p className="relative mb-2 text-6xl font-bold">
+              I&apos;m Aashay Dedhia,{' '}
+              <Image
+                src="/images/highlight-1.svg"
+                width={35}
+                height={35}
+                alt=""
+                className="absolute right-[-20px] top-[-22px]"
+              />
+            </p>
+            <p className="relative text-6xl">
               a <strong className="font-bold">Product</strong> designer
+              <Image
+                src="/images/highlight-2.svg"
+                width={60}
+                height={60}
+                alt=""
+                className="absolute bottom-[-50px] left-[-65px]"
+              />
             </p>
           </h1>
         </div>

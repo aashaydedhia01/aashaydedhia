@@ -1,13 +1,19 @@
 import Image from 'next/image'
 
+import ReactMarquee from 'react-fast-marquee'
+
 interface IMarqueeProps {
   items: string[]
 }
 
 const Marquee = ({ items }: IMarqueeProps) => {
   return (
-    <div className="bg-purple -rotate-2 overflow-x-hidden text-white">
-      <div className="animate-marquee whitespace-nowrap py-2">
+    <div className="-rotate-2">
+      <ReactMarquee
+        className="bg-purple mb-16 overflow-x-hidden py-1 text-white"
+        pauseOnHover
+        speed={150}
+      >
         {items.map(item => (
           <span key={item} className="inline-flex items-center text-2xl">
             {item}
@@ -20,7 +26,7 @@ const Marquee = ({ items }: IMarqueeProps) => {
             />
           </span>
         ))}
-      </div>
+      </ReactMarquee>
     </div>
   )
 }
