@@ -1,6 +1,10 @@
 import Image from 'next/image'
 
-const Marquee = ({ items }) => {
+interface IMarqueeProps {
+  items: string[]
+}
+
+const Marquee = ({ items }: IMarqueeProps) => {
   return (
     <div class="bg-purple -rotate-2 overflow-x-hidden text-white">
       <div class="animate-marquee whitespace-nowrap py-2">
