@@ -6,8 +6,8 @@ interface IMarqueeProps {
 
 const Marquee = ({ items }: IMarqueeProps) => {
   return (
-    <div class="bg-purple -rotate-2 overflow-x-hidden text-white">
-      <div class="animate-marquee whitespace-nowrap py-2">
+    <div className="bg-purple -rotate-2 overflow-x-hidden text-white">
+      <div className="animate-marquee whitespace-nowrap py-2">
         {items.map(item => (
           <span key={item} className="inline-flex items-center text-2xl">
             {item}
