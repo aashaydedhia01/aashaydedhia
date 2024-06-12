@@ -13,6 +13,8 @@ const config: Config = {
         light: '#EBC6FF',
         DEFAULT: '#B026FF',
       },
+      navbar: '#171717',
+
       gray: {
         thin: '#989DA9',
         light: '#344054',

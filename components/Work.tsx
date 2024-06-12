@@ -3,7 +3,7 @@ import Image from 'next/image'
 const works = [
   {
     src: '/images/work/nexa.png',
-    link: 'https://www.behance.net/gallery/111941639/Heigo-Your-Communication-Hub',
+    link: 'https://www.behance.net/gallery/200685455/AI-Driven-Cross-Border-Payments-App',
   },
   {
     src: '/images/work/heigo.png',

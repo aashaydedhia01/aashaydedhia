@@ -42,7 +42,6 @@ const apps = [
     icon: '/images/wardrobe/miro.svg',
     backgroundColor: 'rgba(255, 208, 47, 0.1)',
     borderColor: 'rgba(255, 208, 47, 0.2)',
-
   },
   {
     name: 'Asana',
@@ -80,7 +79,7 @@ const Wardrobe = () => {
   return (
     <section className="max-w-page m-auto py-24 pb-0">
       <h2 className="mb-16 text-center text-5xl">
-        My Apps <strong className="font-bold">Wardrobe</strong>
+        My App <strong className="font-bold">Wardrobe</strong>
       </h2>
       <div className="flex flex-wrap items-center justify-center">
         {apps.map(app => (

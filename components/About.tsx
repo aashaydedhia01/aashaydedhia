@@ -9,7 +9,6 @@ const domains = [
   'SaaS',
   'Travel & Tourism',
   'Food & Beverages',
-  'Stealth Startup',
 ]
 
 const skills = [
