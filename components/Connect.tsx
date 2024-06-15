@@ -57,7 +57,7 @@ const Connect = () => {
             />
           </a>
           <a
-            href="mailto:aashaydedhia01@gmail.com"
+            href="mailto:hey@aashaydedhia.com"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-8 flex h-[120px] w-[120px] items-center justify-center rounded-3xl bg-white shadow-button md:h-[100px] md:w-[100px] sm:h-[80px] sm:w-[80px] sm:rounded-2xl"
