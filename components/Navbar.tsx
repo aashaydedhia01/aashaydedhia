@@ -33,7 +33,7 @@ const Navbar = () => {
           <Image
             src="/images/portfolio-logo.svg"
             alt=""
-            width={38}
+            width={32}
             height={44}
             className="sm:w-[28px]"
           />
