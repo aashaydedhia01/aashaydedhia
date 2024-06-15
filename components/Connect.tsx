@@ -2,8 +2,11 @@ import Image from 'next/image'
 
 const Connect = () => {
   return (
-    <section className="m-auto max-w-page py-24 pb-12 text-center md:px-8">
-      <p className="mobile:text-base mb-16 flex flex-col items-center justify-center text-2xl font-medium sm:text-lg md:text-xl">
+    <section
+      id="contact"
+      className="m-auto max-w-page py-24 pb-12 text-center md:px-8"
+    >
+      <p className="mb-16 flex flex-col items-center justify-center text-2xl font-medium md:text-xl sm:text-lg mobile:text-base">
         Thank you for scrolling, lets stay in touch
         <Image
           src="/images/line.svg"
@@ -16,7 +19,7 @@ const Connect = () => {
       <p className="mb-4 text-3xl font-light md:text-2xl">
         If you have an opportunity or a project idea in mind
       </p>
-      <h2 className="mb-24 text-center text-5xl sm:mb-16 md:text-4xl">
+      <h2 className="mb-24 text-center text-5xl md:text-4xl sm:mb-16">
         Let&apos;s <strong>Connect</strong>
       </h2>
       <div className="mb-20 flex items-center justify-center md:flex-col md:gap-8">
@@ -43,13 +46,13 @@ const Connect = () => {
             href="https://www.linkedin.com/in/aashaydedhia/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-[120px] w-[120px] items-center justify-center rounded-3xl bg-linkedin shadow-button sm:h-[80px] sm:w-[80px] sm:rounded-2xl md:h-[100px] md:w-[100px]"
+            className="flex h-[120px] w-[120px] items-center justify-center rounded-3xl bg-linkedin shadow-button md:h-[100px] md:w-[100px] sm:h-[80px] sm:w-[80px] sm:rounded-2xl"
           >
             <Image
               src="/images/contact/linkedin.png"
               width={70}
               height={70}
-              className="h-[80px] w-[80px] sm:h-[50px] sm:w-[50px] md:h-[60px] md:w-[60px]"
+              className="h-[80px] w-[80px] md:h-[60px] md:w-[60px] sm:h-[50px] sm:w-[50px]"
               alt=""
             />
           </a>
@@ -57,21 +60,21 @@ const Connect = () => {
             href="mailto:aashaydedhia01@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-8 flex h-[120px] w-[120px] items-center justify-center rounded-3xl bg-white shadow-button sm:h-[80px] sm:w-[80px] sm:rounded-2xl md:h-[100px] md:w-[100px]"
+            className="ml-8 flex h-[120px] w-[120px] items-center justify-center rounded-3xl bg-white shadow-button md:h-[100px] md:w-[100px] sm:h-[80px] sm:w-[80px] sm:rounded-2xl"
           >
             <Image
               src="/images/contact/gmail.png"
               width={70}
               height={70}
               alt=""
-              className="sm:w-[45px] md:w-[60px]"
+              className="md:w-[60px] sm:w-[45px]"
             />
           </a>
           <a
             href="https://www.behance.net/aashaydedhia"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-8 flex h-[120px] w-[120px] items-center justify-center rounded-3xl bg-behance shadow-button sm:h-[80px] sm:w-[80px] sm:rounded-2xl md:h-[100px] md:w-[100px]"
+            className="ml-8 flex h-[120px] w-[120px] items-center justify-center rounded-3xl bg-behance shadow-button md:h-[100px] md:w-[100px] sm:h-[80px] sm:w-[80px] sm:rounded-2xl"
           >
             <Image
               src="/images/wardrobe/behance.png"

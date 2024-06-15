@@ -27,7 +27,10 @@ const skills = [
 const About = () => {
   return (
     <>
-      <section className="mobile:px-10 bg-gradient-about p-24 sm:px-12 md:px-14">
+      <section
+        id="about"
+        className="w-full bg-gradient-about p-24 md:px-14 sm:px-12 mobile:px-10"
+      >
         <div className="m-auto max-w-page">
           <h2 className="relative mb-16 text-center text-5xl sm:mb-12 sm:text-3xl">
             <span className="relative">
@@ -53,7 +56,7 @@ const About = () => {
               width={20}
               height={20}
               alt=""
-              className="absolute bottom-[-45px] right-[60px] sm:bottom-[-20px] md:right-[20px]"
+              className="absolute bottom-[-45px] right-[60px] md:right-[20px] sm:bottom-[-20px]"
             />
           </h2>
           <div className="mb-16 text-xl font-light leading-8 text-gray-light">
