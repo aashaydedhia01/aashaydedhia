@@ -26,7 +26,10 @@ const Work = () => {
           </div>
         ))}
         {works.map((work, index) => (
-          <div key={index} className="lg-min:hidden mb-12 cursor-pointer">
+          <div
+            key={index}
+            className="lg-min:hidden mb-12 cursor-pointer xl:hidden"
+          >
             <a href={work.link} target="_blank" rel="noopener noreferrer">
               <Image
                 src={`${work.src}-mobile.png`}

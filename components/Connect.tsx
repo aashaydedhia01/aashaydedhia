@@ -38,7 +38,7 @@ const Connect = () => {
             </div>
           </div>
         </a>
-        <div className="flex">
+        <div className="ml-8 flex md:ml-0">
           <a
             href="https://www.linkedin.com/in/aashaydedhia/"
             target="_blank"
