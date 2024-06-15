@@ -13,12 +13,23 @@ const config: Config = {
         light: '#EBC6FF',
         DEFAULT: '#B026FF',
       },
+      navbar: '#171717',
+
       gray: {
         thin: '#989DA9',
         light: '#344054',
       },
       linkedin: '#0966C2',
       behance: '#1769FF',
+    },
+    screens: {
+      xl: { min: '1280px' },
+      lg: { max: '1280px' },
+      'lg-min': { min: '769px', max: '1279px' },
+      md: { max: '768px' },
+      'md-min': { min: '640px', max: '1279px' },
+      sm: { max: '639px' },
+      mobile: { max: '390px' },
     },
     extend: {
       width: {

@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar'
 import Home from '@/components/Home'
 import About from '@/components/About'
 import Work from '@/components/Work'
@@ -6,7 +7,8 @@ import Connect from '@/components/Connect'
 
 export default function HomePage() {
   return (
-    <main>
+    <main className="relative">
+      <Navbar />
       <Home />
       <About />
       <Work />
