@@ -77,15 +77,15 @@ const apps = [
 
 const Wardrobe = () => {
   return (
-    <section className="max-w-page m-auto py-24 pb-0">
-      <h2 className="mb-16 text-center text-5xl">
+    <section className="m-auto max-w-page py-24 pb-0">
+      <h2 className="relative mb-16 text-center text-5xl sm:mb-12 sm:text-3xl">
         My App <strong className="font-bold">Wardrobe</strong>
       </h2>
       <div className="flex flex-wrap items-center justify-center">
         {apps.map(app => (
           <div
             key={app.name}
-            className="m-6 flex h-[132px] w-[132px] flex-col items-center justify-center rounded-2xl border border-solid"
+            className="m-6 flex h-[132px] w-[132px] flex-col items-center justify-center rounded-2xl border border-solid sm:m-3 sm:h-[96px] sm:w-[96px]"
             style={{
               backgroundColor: app.backgroundColor || 'transparent',
               borderColor: app.borderColor || 'transparent',
@@ -96,7 +96,7 @@ const Wardrobe = () => {
               alt={app.name}
               width={24}
               height={24}
-              className="mb-2 h-12 w-12"
+              className="mb-2 h-12 w-12 sm:mb-2 sm:h-8 sm:w-8"
             />
             <p className="text-center">{app.name}</p>
           </div>

@@ -27,17 +27,18 @@ const skills = [
 const About = () => {
   return (
     <>
-      <section className="bg-gradient-about p-24">
-        <div className="max-w-page m-auto">
-          <h2 className="relative mb-16 text-center text-5xl">
+      <section className="mobile:px-10 bg-gradient-about p-24 sm:px-12 md:px-14">
+        <div className="m-auto max-w-page">
+          <h2 className="relative mb-16 text-center text-5xl sm:mb-12 sm:text-3xl">
             <span className="relative">
-              A few words <strong className="font-bold">About Me</strong>
+              <span>A few words </span>
+              <strong className="font-bold sm:block">About Me</strong>
               <Image
                 src="/images/highlight-1.svg"
                 width={30}
                 height={30}
                 alt=""
-                className="absolute right-[-35px] top-[-22px]"
+                className="absolute right-[-35px] top-[-22px] sm:right-[25px]"
               />
             </span>
             <Image
@@ -52,10 +53,10 @@ const About = () => {
               width={20}
               height={20}
               alt=""
-              className="absolute bottom-[-45px] right-[60px]"
+              className="absolute bottom-[-45px] right-[60px] sm:bottom-[-20px] md:right-[20px]"
             />
           </h2>
-          <div className="text-gray-light mb-16 text-xl font-light">
+          <div className="mb-16 text-xl font-light leading-8 text-gray-light">
             <p className="mb-10">
               I am a chemical engineer, but my passion for{' '}
               <strong className="font-medium">creative thinking</strong> and{' '}
@@ -76,16 +77,16 @@ const About = () => {
               collaboration.
             </p>
           </div>
-          <div className="flex items-start">
-            <div className="flex-1">
-              <div className="text-gray-thin mb-4 font-light">Projects</div>
-              <div className="mb-1 text-5xl font-semibold">15+</div>
+          <div className="flex items-start md:flex-col">
+            <div className="flex-1 md:mb-10">
+              <div className="mb-4 font-light text-gray-thin">Projects</div>
+              <div className="mb-1 text-5xl font-semibold md:text-3xl">15+</div>
               <div className="text-xl font-medium">
                 Mobile Apps and Web Products
               </div>
             </div>
             <div className="mb-2 flex-1">
-              <div className="text-gray-thin mb-4 font-light">Domains</div>
+              <div className="mb-4 font-light text-gray-thin">Domains</div>
               <div className="flex flex-wrap">
                 {domains.map(domain => (
                   <Chip key={domain} content={domain} />
