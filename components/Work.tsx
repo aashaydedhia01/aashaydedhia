@@ -13,11 +13,14 @@ const works = [
 
 const Work = () => {
   return (
-    <section className="m-auto max-w-page py-24 pb-0 sm:px-4 md:px-8 lg:px-16">
+    <section
+      id="work"
+      className="m-auto max-w-page py-24 pb-0 lg:px-16 md:px-8 sm:px-4"
+    >
       <h2 className="relative mb-16 text-center text-5xl sm:mb-12 sm:text-3xl">
         A glimpse into my <strong className="font-bold">Work</strong>
       </h2>
-      <div className="md:px-8">
+      <div className="md:px-6">
         {works.map((work, index) => (
           <div key={index} className="mb-12 cursor-pointer md:hidden">
             <a href={work.link} target="_blank" rel="noopener noreferrer">
@@ -28,7 +31,7 @@ const Work = () => {
         {works.map((work, index) => (
           <div
             key={index}
-            className="lg-min:hidden mb-12 cursor-pointer xl:hidden"
+            className="mb-12 cursor-pointer xl:hidden lg-min:hidden sm:mb-8"
           >
             <a href={work.link} target="_blank" rel="noopener noreferrer">
               <Image
